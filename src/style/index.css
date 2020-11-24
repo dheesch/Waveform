@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #FAFAFA;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+  font-size: 14px;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+
+
+.content-container {
+  width: 80%;
+  margin: 10% auto 2% auto;
+  border: solid thin;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 66.66%;
+  flex: 3;
+  background-color: yellow;
+  
+}
+
+.right {
+  width: 33.33%;
+  flex: 1;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  color: 
+}
+
+@media screen and (max-width: 600px) {
+  .content-container {
+    display: block;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}
