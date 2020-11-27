@@ -1,5 +1,6 @@
 const SIZE = 256
 const HARMONICS = [3, 5, 7, 9, 11]
+// const HARMONICS = []
 const MAG_MIN = 0.1
 const MAG_MAX = 10.0
 

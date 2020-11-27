@@ -23,9 +23,9 @@ html, body {
 
 .content-container {
   width: 80%;
+  max-width: 1200px;
   margin: 10% auto 2% auto;
   border: solid thin;
-  height: 500px;
   display: flex;
   flex-direction: row;
 }
@@ -55,4 +55,17 @@ html, body {
   .left, .right {
     width: 100%;
   }
+}
+
+path, line {
+  stroke: black;
+  stroke-width: 1;
+}
+
+svg {
+  width: 100%;
+}
+
+path {
+  //transform: scale(0.5)
 }
