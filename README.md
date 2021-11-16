@@ -1,5 +1,3 @@
-# code-challenge
-
 ## CLI Commands
 
 ``` bash
